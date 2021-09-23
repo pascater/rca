@@ -1070,7 +1070,7 @@ a {
   padding: 2rem;
   border-radius: 50%;
   transition: all 0.3s;
-  background: #dae2ec;
+  background: #e0e7ef;
 }
 .cid-sJEB8khXzm .modalWindow {
   position: fixed;
@@ -1908,5 +1908,42 @@ a {
 }
 .cid-sJEAo4adWx .mbr-text,
 .cid-sJEAo4adWx .mbr-section-btn {
+  color: #6c758f;
+}
+.cid-sJPBIXmVIk {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: #f2f3f7;
+}
+.cid-sJPBIXmVIk .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-sJPBIXmVIk .row {
+    flex-direction: column-reverse;
+  }
+  .cid-sJPBIXmVIk .image-wrapper {
+    margin-bottom: 2rem;
+  }
+  .cid-sJPBIXmVIk .card-wrapper {
+    padding: 0 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sJPBIXmVIk .card-wrapper {
+    padding-right: 2rem;
+  }
+}
+.cid-sJPBIXmVIk .image-wrapper img {
+  width: 100%;
+  box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+  object-fit: cover;
+  border-radius: 3rem;
+}
+.cid-sJPBIXmVIk .card-title {
+  color: #2299aa;
+}
+.cid-sJPBIXmVIk .mbr-text,
+.cid-sJPBIXmVIk .mbr-section-btn {
   color: #6c758f;
 }
