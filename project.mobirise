@@ -156,13 +156,68 @@
           },
           "_name": "article06",
           "_sourceTheme": "securem4",
-          "_customHTML": "<section class=\"article5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f2f3f7\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-lg\" mbr-class=\"{'offset-lg-1': fullWidth}\">\n                <div class=\"card-wrapper align-left\">\n                    <h6 class=\"card-title mbr-fonts-style mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Questa la nostra promessa per te.</b><br><i>Guarda il video</i><b> &gt;&gt;</b></h6>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i style>Ecco perchè è facile, conveniente e sicuro acquistare una polizza auto online.</i></p>\n                    <div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"imind-cursor-click2 mbr-iconfont mbr-iconfont-btn\"></span>FAI UN PREVENTIVO</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-{{imageWidth}}\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://youtu.be/bd5bCMp_7io\"><img src=\"@PROJECT_PATH@/assets/images/polizza-vita-caso-morte-copertina-youtube-hq-con-icona-play-verde-video.png\" alt=\"polizza auto assicurazione online video\"></a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"article5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f2f3f7\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-lg\" mbr-class=\"{'offset-lg-1': fullWidth}\">\n                <div class=\"card-wrapper align-left\">\n                    <h6 class=\"card-title mbr-fonts-style mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Questa la nostra promessa.&nbsp;</b><i>Guarda il video</i></h6>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i style>Ecco perchè è facile, conveniente e sicuro acquistare una polizza auto online.</i></p>\n                    <div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"imind-cursor-click2 mbr-iconfont mbr-iconfont-btn\"></span>FAI UN PREVENTIVO</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-{{imageWidth}}\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://youtu.be/bd5bCMp_7io\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/polizza-vita-caso-morte-copertina-youtube-hq-con-icona-play-verde-video.png\" alt=\"polizza auto assicurazione online video\"></a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sJPBIXmVIk",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "article06-8"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#0196e3"
+            },
+            ".mbr-text": {
+              "color": "#36187d"
+            },
+            ".title-col": {
+              "border-right": "3px solid currentColor",
+              "color": "#0196e3",
+              "margin-right": "3rem",
+              "align-items": "center",
+              "display": "inline-flex",
+              "width": "100%",
+              "@media (max-width: 992px)": {
+                "margin-right": "0",
+                "border-right": "0"
+              }
+            },
+            ".text-col": {
+              "align-items": "center",
+              "display": "flex"
+            },
+            ".mbr-section-subtitle, .title-col": {
+              "width": "100%",
+              "color": "#2299aa",
+              "text-align": "center"
+            }
+          },
+          "_name": "header01",
+          "_sourceTheme": "securem4",
+          "_customHTML": "<section class=\"headers1\" group=\"Header\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" name=\"reverseContent\" title=\"Reverse\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f2f3f7\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\">\n                <h5 class=\"mbr-section-title align-left mbr-fonts-style mb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Polizza risparmio</b></h5>\n            </div>\n            <div class=\"col-12 col-md-12 col-lg-5 title-col\" mbr-if=\"showSubtitle\">\n                <h6 class=\"mbr-section-subtitle align-left mbr-fonts-style my-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .title-col\" mbr-theme-style=\"display-2\"><b>Assicurazioni veicoli</b></h6>\n            </div>\n            <div class=\"col-12 col-md-12 text-col col-lg-6\">\n                <p class=\"mbr-text align-left mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-5\"><b>Scopri le nostre tariffe convenienti e verifica quanto puoi risparmiare con le migliori condizioni di polizza sul web.</b><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "svGO3o7YHJ",
+          "_anchor": "header01-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "alias": false,
@@ -597,106 +652,6 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-media": {
-              "position": "relative",
-              "img": {
-                "width": "100%",
-                "object-fit": "cover",
-                "border-radius": "3rem"
-              }
-            },
-            ".box": {
-              "box-shadow": "0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff",
-              "border-radius": "3rem"
-            },
-            ".icon-wrap": {
-              "left": "50%",
-              "top": "50%",
-              "transform": "translate(-50%, -50%)",
-              "position": "absolute"
-            },
-            ".mbr-iconfont": {
-              "font-size": "3rem",
-              "color": "@iconColor1",
-              "padding": "2rem",
-              "border-radius": "50%",
-              "transition": "all 0.3s",
-              "background": "@iconColor2"
-            },
-            ".modalWindow": {
-              "position": "fixed",
-              "z-index": "5000",
-              "left": "0",
-              "top": "0",
-              "background-color": "rgba(61, 61, 61, 0.65)",
-              "width": "100%",
-              "height": "100%",
-              ".modalWindow-container": {
-                "display": "table-cell",
-                "vertical-align": "middle"
-              },
-              ".modalWindow-video": {
-                "height": "calc(80vw / 1.778)",
-                "width": "80vw",
-                "margin": "0 auto"
-              }
-            },
-            "a": {
-              "text-decoration": "none!important"
-            },
-            ".close": {
-              "position": "fixed",
-              "opacity": "1",
-              "font-size": "22px",
-              "font-weight": "300",
-              "width": "60px",
-              "height": "60px",
-              "border-radius": "50%",
-              "color": "#fff",
-              "top": "2.5rem",
-              "right": "2.5rem",
-              "border": "2px solid #fff",
-              "text-shadow": "none",
-              "z-index": "5",
-              "transition": "opacity 0.3s ease",
-              "align-items": "center",
-              "justify-content": "center",
-              "display": "flex",
-              "&:hover": {
-                "opacity": "1",
-                "background": "#000",
-                "color": "#fff"
-              }
-            },
-            ".mbr-section-subtitle": {
-              "color": "#2299aa"
-            },
-            ".mbr-section-title": {
-              "color": "#2299aa",
-              "text-align": "center"
-            }
-          },
-          "_name": "video01",
-          "_sourceTheme": "securem4",
-          "_customHTML": "<section class=\"video1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Color</header>\n\n        <input type=\"color\" title=\"Icon\" name=\"iconColor1\" value=\"#2299aa\" selected>\n        <input type=\"color\" title=\"Icon BG\" name=\"iconColor2\" value=\"#e0e7ef\" selected>\n        <header>Video</header>\n        <input type=\"text\" title=\"Link\" name=\"modalVideo\" value=\"https://www.youtube.com/embed/bd5bCMp_7io\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input title=\"Image\" type=\"image\" value=\"../_images/background1.jpg\">\n            <input title=\"Color\" type=\"color\" value=\"#f2f3f7\" selected>\n            <input title=\"Video\" type=\"video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head pb-5\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                Questa la nostra promessa per te, guarda il video</h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Ecco perchè è facile, conveniente e sicuro acquistare una polizza auto online.</h5>\n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"box\">\n                    <div class=\"mbr-media show-modal align-center\" data-modal=\".modalWindow\">\n                        <img src=\"@PROJECT_PATH@/assets/images/polizza-auto.net-immagine-per-video-1456x798.png\" alt=\"Mobirise\">\n                        <div class=\"icon-wrap\">\n                            <a class=\"text-primary\" href=\"#\"><span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\" style=\"font-size: 76px;\"></span></a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div>\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-close mobi-mbri closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sJEB8khXzm",
-          "_anchor": "video01-3",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
             ".title": {
               "padding": "0 2rem",
               "color": "#ea2396",
@@ -747,61 +702,6 @@
           "_customHTML": "<section class=\"article5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showmainTitle\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"color\" title=\"Hover\" name=\"iconColor2\" value=\"#f8f9fb\" selected>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f2f3f7\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12\">\n                <h2 class=\"title align-left mbr-fonts-style pb-3 mb-5\" mbr-theme-style=\"display-5\" mbr-if=\"showmainTitle\" data-app-selector=\".title\">Scopri e verifica quanto puoi risparmiare con le nostri migliori condizioni di polizza.</h2>\n\n            </div>\n            <div class=\"card col-12 col-md-12 col-lg-5\" mbr-if=\"cardsAmount > 0\">\n                <div class=\"card-wrapper\">\n\n\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>FAI UN PREVENTIVO</b></h4>\n                        <h5 class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\"><b>Text</b></h5>\n                    </div>\n\n                </div>\n            </div>\n            <div class=\"card col-12 col-md-12 col-lg-5\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n\n\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>I know what i want</b></h4>\n                        <h5 class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\"><b>Text</b></h5>\n                    </div>\n\n                </div>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
           "_cid": "sJEPycR3Oe",
           "_anchor": "article05-7",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            "& when (@reverseContent)": {
-              ".row": {
-                "flex-direction": "row-reverse"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#000000",
-              "text-align": "center"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#0196e3"
-            },
-            ".mbr-text": {
-              "color": "#36187d"
-            },
-            ".title-col": {
-              "border-right": "3px solid currentColor",
-              "color": "#0196e3",
-              "margin-right": "3rem",
-              "align-items": "center",
-              "display": "inline-flex",
-              "width": "100%",
-              "@media (max-width: 992px)": {
-                "margin-right": "0",
-                "border-right": "0"
-              }
-            },
-            ".text-col": {
-              "align-items": "center",
-              "display": "flex"
-            },
-            ".mbr-section-subtitle, .title-col": {
-              "width": "100%",
-              "color": "#2299aa",
-              "text-align": "center"
-            }
-          },
-          "_name": "header01",
-          "_sourceTheme": "securem4",
-          "_customHTML": "<section class=\"headers1\" group=\"Header\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" name=\"reverseContent\" title=\"Reverse\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f2f3f7\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\">\n                <h5 class=\"mbr-section-title align-left mbr-fonts-style mb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Polizza risparmio</b></h5>\n            </div>\n            <div class=\"col-12 col-md-12 col-lg-5 title-col\" mbr-if=\"showSubtitle\">\n                <h6 class=\"mbr-section-subtitle align-left mbr-fonts-style my-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .title-col\" mbr-theme-style=\"display-2\"><b>Assicurazioni veicoli</b></h6>\n            </div>\n            <div class=\"col-12 col-md-12 text-col col-lg-6\">\n                <p class=\"mbr-text align-left mbr-fonts-style mb-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Scopri le nostre tariffe convenienti e verifica quanto puoi risparmiare con le migliori condizioni di polizza sul web.</b><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "svGO3o7YHJ",
-          "_anchor": "header01-0",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -893,6 +793,106 @@
           "_customHTML": "<section class=\"content2\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" name=\"reverseContent\" title=\"Reverse\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"8\" value=\"6\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f2f3f7\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md align-left\">\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>About Company</b></h5>\n                <h6 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><b>The safety of our customers\n                        is our top priority!</b></h6>\n            </div>\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <p class=\"mbr-text align-left mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu\n                        laoreet odio. Aenean eget lorem pellentesque, imperdiet ex convallis, iaculis justo. Etiam ac\n                        purus purus. Vivamus vel lacus non diam gravida efficitur. Proin elementum velit vel mauris\n                        euismod consectetur. Nunc neque libero, pulvinar et odio eu, vestibulum iaculis tortor.</b></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "svGOYoMz5M",
           "_anchor": "article02-f",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-media": {
+              "position": "relative",
+              "img": {
+                "width": "100%",
+                "object-fit": "cover",
+                "border-radius": "3rem"
+              }
+            },
+            ".box": {
+              "box-shadow": "0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff",
+              "border-radius": "3rem"
+            },
+            ".icon-wrap": {
+              "left": "50%",
+              "top": "50%",
+              "transform": "translate(-50%, -50%)",
+              "position": "absolute"
+            },
+            ".mbr-iconfont": {
+              "font-size": "3rem",
+              "color": "@iconColor1",
+              "padding": "2rem",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "background": "@iconColor2"
+            },
+            ".modalWindow": {
+              "position": "fixed",
+              "z-index": "5000",
+              "left": "0",
+              "top": "0",
+              "background-color": "rgba(61, 61, 61, 0.65)",
+              "width": "100%",
+              "height": "100%",
+              ".modalWindow-container": {
+                "display": "table-cell",
+                "vertical-align": "middle"
+              },
+              ".modalWindow-video": {
+                "height": "calc(80vw / 1.778)",
+                "width": "80vw",
+                "margin": "0 auto"
+              }
+            },
+            "a": {
+              "text-decoration": "none!important"
+            },
+            ".close": {
+              "position": "fixed",
+              "opacity": "1",
+              "font-size": "22px",
+              "font-weight": "300",
+              "width": "60px",
+              "height": "60px",
+              "border-radius": "50%",
+              "color": "#fff",
+              "top": "2.5rem",
+              "right": "2.5rem",
+              "border": "2px solid #fff",
+              "text-shadow": "none",
+              "z-index": "5",
+              "transition": "opacity 0.3s ease",
+              "align-items": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "&:hover": {
+                "opacity": "1",
+                "background": "#000",
+                "color": "#fff"
+              }
+            },
+            ".mbr-section-subtitle": {
+              "color": "#2299aa"
+            },
+            ".mbr-section-title": {
+              "color": "#2299aa",
+              "text-align": "center"
+            }
+          },
+          "_name": "video01",
+          "_sourceTheme": "securem4",
+          "_customHTML": "<section class=\"video1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Color</header>\n\n        <input type=\"color\" title=\"Icon\" name=\"iconColor1\" value=\"#2299aa\" selected>\n        <input type=\"color\" title=\"Icon BG\" name=\"iconColor2\" value=\"#e0e7ef\" selected>\n        <header>Video</header>\n        <input type=\"text\" title=\"Link\" name=\"modalVideo\" value=\"https://www.youtube.com/embed/bd5bCMp_7io\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input title=\"Image\" type=\"image\" value=\"../_images/background1.jpg\">\n            <input title=\"Color\" type=\"color\" value=\"#f2f3f7\" selected>\n            <input title=\"Video\" type=\"video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head pb-5\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                Questa la nostra promessa per te, guarda il video</h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Ecco perchè è facile, conveniente e sicuro acquistare una polizza auto online.</h5>\n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"box\">\n                    <div class=\"mbr-media show-modal align-center\" data-modal=\".modalWindow\">\n                        <img src=\"@PROJECT_PATH@/assets/images/polizza-auto.net-immagine-per-video-1456x798.png\" alt=\"Mobirise\">\n                        <div class=\"icon-wrap\">\n                            <a class=\"text-primary\" href=\"#\"><span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\" style=\"font-size: 76px;\"></span></a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div>\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-close mobi-mbri closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sJEB8khXzm",
+          "_anchor": "video01-3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
