@@ -94,7 +94,7 @@
     "PWA": {
       "enabled": true
     },
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
