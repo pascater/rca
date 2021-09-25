@@ -48,23 +48,23 @@
     ],
     "imageResize": true,
     "chatbutton": {
-      "phone": "+12345678901",
+      "phone": "+393382234395",
       "message": "",
       "size": "65px",
       "backgroundColor": "#e5ddd5",
       "position": "left",
-      "popupMessage": "Hi!👋\n\nType a message here. It will go straight to our phone! 🔥\n\nMobirise Team",
+      "popupMessage": "Ciao, \n\nhai dubbi o perplessità? \n\nchiedici pure qualsiasi cosa, scrivi da qui se vuoi.",
       "showPopup": true,
       "showOnIE": true,
-      "autoOpenTimeout": 5,
+      "autoOpenTimeout": "0",
       "headerColor": "#39847a",
-      "headerTitle": "👋 Chat with us on WhatsApp!",
-      "placeholder": "Type here",
+      "headerTitle": "Scrivici da qui su WhatsApp!",
+      "placeholder": "Scrivi qui",
       "zIndex": 10,
       "enabled": true
     },
     "favicon": "@PROJECT_PATH@/assets/images/polizza-auto-net-logo-da-pdf-3-128x29.png",
-    "mbrsiteDomain": "udh08ikotf",
+    "mbrsiteDomain": "mp5t57mmh2",
     "cssOptimize": true,
     "lazyLoad": true,
     "robotsSwitcher": true,
@@ -97,14 +97,15 @@
     "PWA": {
       "enabled": true
     },
-    "publishChangesOnly": false
+    "publishChangesOnly": true,
+    "site_lang": "en"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "Polizza-auto.net",
-        "meta_descr": "Polizza auto online, la tua assicurazione sul web per risparmiare e d avere maggiori garanzie",
+        "meta_descr": "Polizza auto online, la tua assicurazione sul web per risparmiare ed avere maggiori garanzie assicurative",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
