@@ -97,7 +97,7 @@
     "PWA": {
       "enabled": true
     },
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "site_lang": "en"
   },
   "pages": {
