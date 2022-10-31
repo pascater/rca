@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "quixa.html",
     "theme": {
       "name": "securem4",
       "title": "SecureM4",
@@ -100,7 +100,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Polizza auto, assicurazione in convenzione con Quixa",
+        "title": "Polizza auto, assicurazione in convenzione a tariffa speciale",
         "meta_descr": "La tua assicurazione sul web per risparmiare ed avere maggiori garanzie in polizza. Convenzionati con Quixa.",
         "header_custom": "<!-- Meta Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '468039208193288');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=468039208193288&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->",
         "footer_custom": "",
@@ -1648,8 +1648,8 @@
     },
     "quixa.html": {
       "settings": {
-        "title": "Quixa",
-        "meta_descr": "Quixa convenzione con Polizza auto net",
+        "title": "Quixa assicurazione convenzione polizza auto net",
+        "meta_descr": "Quixa convenzione con Polizza auto net assicurazione auto e moto",
         "header_custom": "<!-- Meta Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '468039208193288');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=468039208193288&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->",
         "footer_custom": "",
         "html_before": "",
